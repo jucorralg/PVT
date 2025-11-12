@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cascadia Health Network — Better Care. Connected.</title>
+  <meta name="description" content="Pretend customer site for Bootcamp discovery exercises. Healthcare Network – Hybrid Migration scenario." />
+  <style>
+    :root{
+      --bg:#0f172a;          /* slate-900 */
+      --card:#111827;        /* gray-900 */
+      --muted:#94a3b8;       /* slate-400 */
+      --text:#e5e7eb;        /* gray-200 */
+      --accent:#22c55e;      /* green-500 */
+      --accent-2:#60a5fa;    /* blue-400 */
+      --chip:#1f2937;        /* gray-800 */
+      --border:#1f2937;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius: 16px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:linear-gradient(180deg,#0b1023 0%, #0f172a 60%, #0b1023 100%);color:var(--text);font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";line-height:1.55}
+    a{color:var(--accent-2);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1100px;margin:0 auto;padding:32px 20px}
+    header{position:sticky;top:0;background:rgba(15,23,42,.7);backdrop-filter: blur(10px);border-bottom:1px solid var(--border);z-index:20}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:36px;height:36px;border-radius:10px;background:conic-gradient(from 210deg, #22c55e, #60a5fa, #22c55e);box-shadow:var(--shadow)}
+    .brand h1{font-size:18px;margin:0}
+    .nav a{padding:8px 10px;border-radius:10px}
+    .nav a:hover{background:var(--chip)}
+    .hero{padding:64px 0 28px}
+    .hero .title{font-size:42px;line-height:1.15;margin:0 0 10px}
+    .hero .subtitle{color:var(--muted);font-size:18px;margin:0 0 22px}
+    .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+    .chip{background:var(--chip);border:1px solid var(--border);padding:8px 12px;border-radius:999px;color:var(--text);font-size:13px}
+    .grid{display:grid;gap:18px}
+    @media(min-width:860px){.grid-2{grid-template-columns:1fr 1fr}}
+    section{margin:26px 0;padding:22px;border:1px solid var(--border);border-radius:var(--radius);background:linear-gradient(180deg,#0f172a, #0d142c)}
+    h2{margin:0 0 12px;font-size:22px}
+    p{margin:10px 0}
+    ul{margin:10px 0 0 18px}
+    li{margin:6px 0}
+    .card{box-shadow:var(--shadow)}
+    .table{width:100%;border-collapse:collapse;border:1px solid var(--border);border-radius:12px;overflow:hidden}
+    .table th,.table td{padding:12px 14px;border-bottom:1px solid var(--border);text-align:left}
+    .table th{color:#cbd5e1;background:#0b1227}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:#0b1227;border:1px solid var(--border);color:#cbd5e1;font-size:12px}
+    .muted{color:var(--muted)}
+    .footer{border-top:1px solid var(--border);margin-top:28px;padding-top:18px;color:var(--muted);font-size:14px}
+    .callout{border-left:4px solid var(--accent);background:#0b1227;padding:14px 16px;border-radius:8px;margin:12px 0;color:#d1fae5}
+    .cta{display:inline-block;margin-top:8px;padding:10px 14px;border-radius:12px;background:linear-gradient(90deg,var(--accent),#10b981);color:#0b1227;font-weight:700}
+    .kbd{padding:2px 8px;border:1px solid var(--border);border-bottom-width:3px;border-radius:8px;background:#0b1227}
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <img src="StylistRetailers.png" alt="Logo" class="logo">
+        <h1>Stylist Retailers</h1>
+      </div>
+      <nav class="links">
+        <a href="#about">About</a>
+        <a href="#network">Network</a>
+        <a href="#systems">Systems</a>
+        <a href="#vision">Vision</a>
+        <a href="#focus">What We’re Solving</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#facts">Fast Facts</a>
+        <a href="#news">News</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- HERO -->
+    <section class="hero card">
+      <p class="badge">Pretend Customer Site · Collaboration PVT - Customer Scenario</p>
+      <h2 class="title"><center>Express your Unique Style</center></h2><br>
+      <p class="subtitle">Stylist Retailers is a nationwide <strong> clothing and lifestyle </strong> brand operating 300 stores across North America, empowering personal expression through fresh, modern fashion.</p>
+      <div class="chips">
+        <span class="chip">20,000 employees</span>
+        <span class="chip">350 contact center agents</span>
+        <span class="chip">Broadworks Cloud PBX</span>
+        <span class="chip">Outsourced Contact <Center></Center></span>
+      </div>
+      <a class="cta" href="#about">Explore the Organization →</a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="card">
+      <h2>About Us</h2>
+      <p>Stylist Retailers is a leading nationwide clothing and lifestyle brand, operating 300 stores across North America. We are dedicated to empowering individuals to express their unique style through fresh, modern fashion. Committed to enhancing your shopping experience, we're embracing innovative digital solutions to ensure seamless, personalized, and convenient interactions, both in-store and online.</p>
+    </section>
+
+    <!-- NETWORK + SYSTEMS -->
+    <div class="grid grid-2">
+      <section id="network" class="card">
+        <h2>Our Network</h2>
+        <p>With 300 vibrant stores, Stylist Retailers boasts a significant presence across North America. From bustling urban centers like New York, Los Angeles, and Miami to key regional markets in the Midwest and Pacific Northwest, our physical locations offer a personalized shopping experience, including our highly sought-after Personal Shopper service. Beyond our brick-and-mortar footprint, our digital storefront provides 24/7 access to our latest collections. Our comprehensive e-commerce platform, ensures that our fresh, modern styles are accessible to every customer, everywhere, at any time.</p>
+      </section>
+
+      <section id="systems" class="card">
+        <h2>Current Communication Systems</h2>
+        <p>Stylist Retailers currently relies on a foundational set of communication tools to manage its operations and customer interactions:</p>
+        <ul>
+          <li><strong>Telephony:</strong> Cisco BroadWorks for internal and external voice communications.</li>
+          <li><strong>Contact Center:</strong> An outsourced legacy call center solution, featuring basic IVR capabilities but lacking modern AI functionalities.</li>
+          <li><strong>Channels:</strong> Voice &amp; email only — no AI, chat, or self-service</li>
+          
+        </ul>
+        
+      </section>
+    </div>
+
+    <!-- VISION -->
+    <section id="vision" class="card">
+      <h2>Modernization Vision</h2>
+      <p>Our vision is to elevate your experience by unifying our communication systems. This will deliver seamless digital interactions, quicker resolutions, and consistent, personalized service across all touchpoints. We're leveraging advanced tools to make every interaction effortless and tailored to your unique needs, ensuring a superior journey with us.</p>
+    </section>
+
+    <!-- WHAT WE'RE SOLVING -->
+    <section id="focus" class="card">
+      <h2>What We’re Solving For</h2>
+      <div class="grid grid-2">
+        <div>
+          <ul>
+            <li>Delivering seamless, consistent, and personalized interactions across all touchpoints</li>
+            <li>Ensuring every interaction, whether online or in-store, is smooth, consistent, and tailored to your individual preferences</li>
+            <li>Offering convenient, modern channels like chat, SMS, and self-service options so you can connect with us quickly and easily, on your terms</li>
+            <li>Getting you the right answers and solutions faster, preventing misrouted calls and ensuring our team has all the context needed to assist you efficiently</li>
+          </ul>
+    
+        </div>
+      </div>
+      <p class="muted">Note: Public website material — operational details may change as modernization progresses.</p>
+    </section>
+
+    <!-- LEADERSHIP -->
+    <section id="leadership" class="card">
+      <h2>Leadership Team</h2>
+      <ul>
+        <li><strong>David Chen — CIO:</strong> Overseeing technology strategy and infrastructure, focusing on efficiency and consolidation.</li>
+        <li><strong>Sarah Miller — VP of Customer Experience:</strong> Defining and improving the overall customer journey and satisfaction.</li>
+        <li><strong>Mark Johnson — Contact Center Manager:</strong> Managing daily contact center operations, performance, and agent activities.</li>
+        <li><strong>Emily Davis — Store Manager:</strong> Overseeing store operations and customer interactions, aiming to reduce interruptions.</li>
+        <li><strong>Robert Garcia — IT Ops Lead:</strong> Leading IT operations, responsible for system maintenance and control.</li>
+</ul>
+    </section>
+
+    <!-- FAST FACTS -->
+    <section id="facts" class="card">
+      <h2>Fast Facts</h2>
+      <table class="table" role="table" aria-label="Organization facts">
+        <thead>
+          <tr><th>Metric</th><th>Value</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Stores</td><td>300</td></tr>
+          <tr><td>Total Employees</td><td>20,000</td></tr>
+          <tr><td>Contact Center Agents</td><td>350</td></tr>
+          <tr><td>Annual Patient Interactions</td><td>5,000,000+</td></tr>
+          <tr><td>Current Systems</td><td>Cisco BroadWorks cloud PBX. Outsourced Contact Center</td></tr>
+          <tr><td>Channels</td><td>Voice, Email</td></tr>
+          <tr><td>Modernization Goal</td><td>Platform consolidation, insource Customer Service.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- NEWS -->
+    <section id="news" class="card">
+      <h2>News & Announcements</h2>
+      <ul>
+        <li><strong>Q4 Initiative:</strong> Piloting appointment reminders and self-service scheduling at 5 clinics.</li>
+        <li><strong>Emergency Readiness:</strong> Quarterly disaster recovery drill to validate communication failover.</li>
+        <li><strong>Care Experience:</strong> Launching patient feedback loop to improve access and coordination.</li>
+      </ul>
+      <p class="muted">This site is for training purposes and represents a fictional organization.</p>
+    </section>
+
+    <section class="footer">
+      <p><span class="kbd">Collaboration PVT</span> Stylist Retailers - Platform modernization (Fictional)</p>
+      <p>© Stylist Retailers — Training Scenario · All names are placeholders.</p>
+    </section>
+  </main>
+<!-- Chat Widget (self-hosted loader) -->
+<div id="divicw" data-bind="ECBA212A-FE2A-412A-AAAE-6AE864A008B8" data-org=""></div>
+<script src="chatloader.js"></script>
+
+</body>
+</html>
